@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "less": "~2.7.2",
+    "catw": "~1.0.1"
+  },
+  "scripts": {
+    "watch-css": "catw -c 'lessc -' 'style/*.less' -o 'dist/style.css' -v"
+  }
+}
