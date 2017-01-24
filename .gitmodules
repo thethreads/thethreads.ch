@@ -1,0 +1,6 @@
+[submodule "siema"]
+	path = siema
+	url = https://github.com/pawelgrzybek/siema
+[submodule "thirdparty/siema"]
+	path = thirdparty/siema
+	url = https://github.com/pawelgrzybek/siema.git
