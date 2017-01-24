@@ -7,7 +7,16 @@
     easing:    'ease-in-out',
     loop:      true,
   });
-  setInterval(() => siema.next(), 5000);
+  var siema_forwards = true;
+  setInterval(function() {
+    var i = siema.currentSlide,
+        n = document.querySelectorAll('.siema > div > div').length;
+    if (i == 0) siema_forwards = true;
+    else if (i == n - 1) siema_forwards = false;
+
+    if (siema_forwards) siema.next();
+    else                siema.prev();
+  }, 7000);
 
 
   var email = dec('%C2%81ur%C2%81u%7Frnq%C2%80M%C2%80%C2%84%7C%7Cx%3B%7Br%C2%81'),
