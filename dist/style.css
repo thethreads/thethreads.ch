@@ -56,6 +56,7 @@ div#footer div a:hover {
 }
 div#footer div span.copyright {
   color: #333;
+  font-size: 1.2rem;
 }
 body {
   background-color: #EFEFEF;
