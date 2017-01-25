@@ -26,6 +26,54 @@ div.section-title {
   padding: 0;
   padding-bottom: 2rem;
 }
+div#about div#members {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+div#about div#members div.group {
+  position: relative;
+  display: inline-block;
+  border: 0.1rem solid #888;
+  border-radius: 0.2rem;
+  padding-top: 1.4rem;
+  padding-bottom: 0.6rem;
+  margin: 0.5rem;
+}
+div#about div#members div.group span.group {
+  position: absolute;
+  top: -0.8rem;
+  left: 0.4rem;
+  font-size: 1rem;
+  padding: 0 0.2rem;
+  background-color: white;
+  color: #666;
+}
+div#about div#members div.group:hover {
+  box-shadow: 0 0 0.2rem #999;
+}
+div#about div#members div.member {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 0rem 1rem;
+  color: #444;
+  transition: color 0.5s;
+  cursor: default;
+}
+div#about div#members div.member img {
+  display: block;
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4rem;
+}
+div#about div#members div.member:hover {
+  color: black;
+}
+div#about div#members div.member:hover img {
+  box-shadow: 0.1rem 0.1rem 1rem 0 #999;
+}
 div#videos {
   text-align: center;
 }
