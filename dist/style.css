@@ -46,7 +46,7 @@ div#about div#members div.group span.group {
   left: 0.4rem;
   font-size: 1rem;
   padding: 0 0.2rem;
-  background-color: white;
+  background-color: #EFEFEF;
   color: #666;
 }
 div#about div#members div.group:hover {
