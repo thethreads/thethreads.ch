@@ -117,7 +117,7 @@ div#carousel {
 div#carousel img {
   min-height: 15rem;
 }
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   div#home {
     width: auto;
     background-color: transparent;
