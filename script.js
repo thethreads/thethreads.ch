@@ -23,9 +23,11 @@
 
 
   // Enable Youtube playlist
-  $('#ycp').ycp({
-    apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
-    playlist: 50
+  $(document).ready(function() {
+    $('#ycp').ycp({
+      apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
+      playlist: 50
+    });
   });
 
 
