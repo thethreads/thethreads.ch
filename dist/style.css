@@ -29,6 +29,13 @@ div.section-title {
 div#videos {
   text-align: center;
 }
+div#videos div#ycp .play {
+  text-align: left;
+}
+div#videos div#ycp .thumb,
+div#videos div#ycp span[class^="by"] {
+  display: none;
+}
 div#footer {
   position: relative;
   width: 100%;
