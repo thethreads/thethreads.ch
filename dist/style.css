@@ -33,7 +33,8 @@ div#videos div#ycp .play {
   text-align: left;
 }
 div#videos div#ycp .thumb,
-div#videos div#ycp span[class^="mute by"] {
+div#videos div#ycp span[class^="mute by"],
+div#videos div#ycp .play > br {
   display: none;
 }
 div#footer {
