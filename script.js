@@ -24,12 +24,22 @@
 
   // Enable Youtube playlist
   $(document).ready(function() {
+    var ycp_enable_attempted = false;
+    function enable_ycp_once() {
+      if (!ycp_enable_attempted) {
+        $('#ycp').ycp({
+          apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
+          autoplay: true,
+          playlist: 50
+        });
+        ycp_enable_attempted = true;
+      }
+    }
+    $('#about').waypoint(function(direction) {
+      enable_ycp_once();
+    });
     $('#videos').waypoint(function(direction) {
-      $('#ycp').ycp({
-        apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
-        autoplay: true,
-        playlist: 50
-      });
+      enable_ycp_once();
     });
   });
 
