@@ -24,7 +24,7 @@
 
   // Enable Youtube playlist
   $(document).ready(function() {
-    $('#ycp').waypoint(function(direction) {
+    $('#videos').waypoint(function(direction) {
       $('#ycp').ycp({
         apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
         autoplay: true,
