@@ -84,7 +84,8 @@ div#home {
   top: 0;
   width: inherit;
   text-align: center;
-  padding: 1rem 0;
+  padding: 0.5rem;
+  line-height: 1rem;
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -128,7 +129,10 @@ div#carousel img {
   div#home {
     width: auto;
     background-color: transparent;
-    padding: 2rem;
+    padding: 1.5rem;
+  }
+  div#home img {
+    width: 16rem;
   }
   div#nav {
     top: 0;
