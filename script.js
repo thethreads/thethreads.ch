@@ -45,7 +45,7 @@
 
 
   // Decode e-mail and populate as necessary
-  var email = dec('%C2%81ur%C2%81u%7Frnq%C2%80M%C2%80%C2%84%7C%7Cx%3B%7Br%C2%81'),
+  var email = dec('znvyM%C2%81ur%C2%81u%7Frnq%C2%80%3Bpu'),
       email_elements = document.querySelectorAll('.email');
   for (var i = 0; i < email_elements.length; i++) {
     var email_el = email_elements[i];
