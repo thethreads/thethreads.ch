@@ -89,6 +89,7 @@ div#footer {
   position: relative;
   width: 100%;
   overflow: hidden;
+  line-height: 0;
 }
 div#footer img {
   width: 100%;
@@ -100,6 +101,7 @@ div#footer div {
   padding: 1.5rem;
   right: 1rem;
   bottom: 1rem;
+  line-height: 2.5rem;
 }
 div#footer div i {
   width: 0;
