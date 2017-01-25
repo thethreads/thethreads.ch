@@ -129,7 +129,7 @@ div#home {
   text-align: center;
   padding: 0.5rem;
   line-height: 1rem;
-  z-index: 100;
+  z-index: 3;
   background-color: rgba(255, 255, 255, 0.5);
 }
 div#home img {
@@ -163,8 +163,12 @@ div#nav a:hover {
 }
 div#carousel {
   height: 15rem;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
 }
 div#carousel img {
+  width: 100%;
   min-height: 15rem;
 }
 @media (min-width: 600px) {
@@ -200,12 +204,4 @@ div#carousel img {
   div#carousel img {
     min-height: 40rem;
   }
-}
-div#carousel {
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
-}
-div#carousel img {
-  width: 100%;
 }

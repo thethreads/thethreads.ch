@@ -7,7 +7,7 @@ div#home {
   text-align: center;
   padding: 0.5rem;
   line-height: 1rem;
-  z-index: 100;
+  z-index: 3;
 
   img {
     height: 100%;
@@ -50,7 +50,13 @@ div#nav {
 
 div#carousel {
   height: @top-height;
-  img { min-height: @top-height; }
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  img {
+    width: 100%;
+    min-height: @top-height;
+  }
 }
 
 @media(min-width: 600px) {
@@ -87,11 +93,3 @@ div#carousel {
   }
 }
 
-div#carousel {
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
-  img {
-    width: 100%;
-  }
-}
