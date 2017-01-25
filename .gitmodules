@@ -4,3 +4,6 @@
 [submodule "thirdparty/siema"]
 	path = thirdparty/siema
 	url = https://github.com/pawelgrzybek/siema.git
+[submodule "thirdparty/jQuery-Youtube-Channels-Playlist"]
+	path = thirdparty/jQuery-Youtube-Channels-Playlist
+	url = https://github.com/bachors/jQuery-Youtube-Channels-Playlist.git

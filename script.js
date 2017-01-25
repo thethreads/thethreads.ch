@@ -1,6 +1,7 @@
 (function() {
   "use strict";
 
+  // Enable Siema images carousel
   const siema = new Siema({
     draggable: false,
     duration:  1000,
@@ -21,6 +22,14 @@
   }, 3000);
 
 
+  // Enable Youtube playlist
+  $('#ycp').ycp({
+    apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
+    playlist: 50
+  });
+
+
+  // Decode e-mail and populate as necessary
   var email = dec('%C2%81ur%C2%81u%7Frnq%C2%80M%C2%80%C2%84%7C%7Cx%3B%7Br%C2%81'),
       email_elements = document.querySelectorAll('.email');
   for (var i = 0; i < email_elements.length; i++) {

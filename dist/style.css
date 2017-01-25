@@ -29,21 +29,6 @@ div.section-title {
 div#videos {
   text-align: center;
 }
-div#videos iframe {
-  width: 80%;
-}
-@media (min-width: 600px) {
-  div#videos iframe {
-    width: 500px;
-    height: 280px;
-  }
-}
-@media (min-width: 1000px) {
-  div#videos iframe {
-    width: 700px;
-    height: 400px;
-  }
-}
 div#footer {
   position: relative;
   width: 100%;
