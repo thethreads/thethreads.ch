@@ -24,10 +24,12 @@
 
   // Enable Youtube playlist
   $(document).ready(function() {
-    $('#ycp').ycp({
-      apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
-      autoplay: true,
-      playlist: 50
+    $('#ycp').waypoint(function(direction) {
+      $('#ycp').ycp({
+        apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
+        autoplay: true,
+        playlist: 50
+      });
     });
   });
 
