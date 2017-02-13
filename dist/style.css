@@ -38,8 +38,10 @@ div#about div#members div.group {
   border: 0.1rem solid #888;
   border-radius: 0.2rem;
   padding-top: 1.4rem;
-  padding-bottom: 0.6rem;
+  padding-bottom: 0;
   margin: 0.5rem;
+  margin-bottom: 0.3rem;
+  color: #333;
 }
 div#about div#members div.group span.group {
   position: absolute;
@@ -52,14 +54,14 @@ div#about div#members div.group span.group {
 }
 div#about div#members div.group:hover {
   box-shadow: 0 0 0.2rem #999;
+  color: black;
 }
 div#about div#members div.member {
   display: inline-block;
   text-align: center;
   font-size: 1.1rem;
   margin: 0rem 1rem;
-  color: #444;
-  transition: color 0.5s;
+  margin-bottom: 1rem;
   cursor: default;
 }
 div#about div#members div.member img {
@@ -69,11 +71,12 @@ div#about div#members div.member img {
   margin-bottom: 0.5rem;
   border-radius: 4rem;
 }
-div#about div#members div.member:hover {
-  color: black;
+div#about div#members div.group-alumni {
+  margin-top: 2rem;
 }
-div#about div#members div.member:hover img {
-  box-shadow: 0.1rem 0.1rem 1rem 0 #999;
+div#about div#members div.group-alumni img {
+  width: 6rem;
+  height: 6rem;
 }
 div#videos {
   text-align: center;

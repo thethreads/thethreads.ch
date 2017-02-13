@@ -44,8 +44,11 @@ div#about {
       border: 0.1rem solid #888;
       border-radius: 0.2rem;
       padding-top: 1.4rem;
-      padding-bottom: 0.6rem;
+      padding-bottom: 0;
       margin: 0.5rem;
+      margin-bottom: 0.3rem;
+
+      color: #333;
 
       span.group {
         position: absolute;
@@ -60,6 +63,7 @@ div#about {
 
       &:hover {
         box-shadow: 0 0 0.2rem #999;
+	color: black;
       }
     }
 
@@ -68,9 +72,8 @@ div#about {
       text-align: center;
       font-size: 1.1rem;
       margin: 0rem 1rem;
+      margin-bottom: 1rem;
 
-      color: #444;
-      transition: color 0.5s;
       cursor: default;
 
       img {
@@ -81,13 +84,14 @@ div#about {
 
         border-radius: 4rem;
       }
+    }
 
-      &:hover {
-        color: black;
+    div.group-alumni {
+      margin-top: 2rem;
 
-        img {
-          box-shadow: 0.1rem 0.1rem 1rem 0 #999;
-        }
+      img {
+        width: 6rem;
+        height: 6rem;
       }
     }
   }
