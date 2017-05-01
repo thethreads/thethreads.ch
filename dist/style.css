@@ -27,6 +27,11 @@ div.section-title {
   padding: 0;
   padding-bottom: 2rem;
 }
+div#news {
+  background-color: #f0a032;
+  text-align: center;
+  padding: 1.5rem;
+}
 div#about div#members {
   margin-top: 3rem;
   margin-bottom: 0;
