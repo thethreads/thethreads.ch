@@ -89,9 +89,9 @@ div#videos {
 div#videos div#ycp .play {
   text-align: left;
 }
+div#videos div#ycp div.vid-top,
 div#videos div#ycp .thumb,
-div#videos div#ycp span[class^="mute by"],
-div#videos div#ycp span[class^="mute views"],
+div#videos div#ycp span.mute,
 div#videos div#ycp .play > br {
   display: none;
 }
