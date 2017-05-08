@@ -100,6 +100,8 @@ div#videos div#ycp div.play div.thumb img {
 }
 div#videos div#ycp div.play div.title {
   white-space: pre-wrap !important;
+  height: 36px;
+  line-height: 18px;
 }
 div#videos div#ycp div.vid-bottom {
   height: 507px !important;
