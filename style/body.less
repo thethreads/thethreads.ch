@@ -107,11 +107,31 @@ div#videos {
   text-align: center;
 
   div#ycp {
-    .play {
+    div.play {
       text-align: left;
+
+      div.thumb {
+        height: 36px !important;
+        overflow: hidden;
+
+        img {
+          width: 65px !important;
+          height: 49px !important;
+          margin-top: -7px;
+        }
+      }
+
+      div.title {
+        white-space: pre-wrap !important;
+        height: 36px;
+        line-height: 18px;
+      }
+    }
+    div.vid-bottom {
+      height: 507px !important;
     }
     div.vid-top,
-    .thumb,
+    div.thumb span[class^="tm"],
     span.mute,
     .play > br {
       display: none;

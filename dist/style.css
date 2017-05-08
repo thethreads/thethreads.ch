@@ -86,11 +86,26 @@ div#about div#members div.group-alumni img {
 div#videos {
   text-align: center;
 }
-div#videos div#ycp .play {
+div#videos div#ycp div.play {
   text-align: left;
 }
+div#videos div#ycp div.play div.thumb {
+  height: 36px !important;
+  overflow: hidden;
+}
+div#videos div#ycp div.play div.thumb img {
+  width: 65px !important;
+  height: 49px !important;
+  margin-top: -7px;
+}
+div#videos div#ycp div.play div.title {
+  white-space: pre-wrap !important;
+}
+div#videos div#ycp div.vid-bottom {
+  height: 507px !important;
+}
 div#videos div#ycp div.vid-top,
-div#videos div#ycp .thumb,
+div#videos div#ycp div.thumb span[class^="tm"],
 div#videos div#ycp span.mute,
 div#videos div#ycp .play > br {
   display: none;
