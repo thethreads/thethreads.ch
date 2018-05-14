@@ -74,17 +74,17 @@ div#about div#members div.member {
 }
 div#about div#members div.member img {
   display: block;
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   margin-bottom: 0.5rem;
-  border-radius: 4rem;
+  border-radius: 10rem;
 }
 div#about div#members div.group-alumni {
   margin-top: 3rem;
 }
 div#about div#members div.group-alumni img {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
 }
 div#videos {
   text-align: center;
