@@ -27,6 +27,9 @@ div.section-title {
   padding: 0;
   padding-bottom: 2rem;
 }
+div.section-title#concert-title {
+  text-align: center;
+}
 div#news {
   background-color: #f0a032;
   text-align: center;
