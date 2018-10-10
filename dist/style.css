@@ -74,8 +74,8 @@ div#about div#members div.member {
 }
 div#about div#members div.member img {
   display: block;
-  width: 10rem;
-  height: 10rem;
+  width: 9rem;
+  height: 9rem;
   margin-bottom: 0.5rem;
   border-radius: 10rem;
 }
