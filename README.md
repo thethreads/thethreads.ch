@@ -16,3 +16,4 @@ Make sure to commit the compiled CSS whenever you commit changes to the `.less` 
 
 ## Images
 For member images, upload images at most 200x200 px large. Preferrably in webp or .jpg format.
+Conversion to webp can happen e.g. with `magick input.png -resize 200x200\> -quality 80 output.webp`
