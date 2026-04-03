@@ -1,7 +1,6 @@
-thethreads.ch
-=============
+# thethreads.ch
 
-# Development
+## Development
 
 To setup your development environment...
 
@@ -14,3 +13,6 @@ To setup your development environment...
 
 The final compiled and combined CSS file is located in `dist/`.
 Make sure to commit the compiled CSS whenever you commit changes to the `.less` source files!
+
+## Images
+For member images, upload images at most 200x200 px large. Preferrably in webp or .jpg format.
