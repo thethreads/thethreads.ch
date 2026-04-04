@@ -22,28 +22,6 @@
   }, 3000);
 
 
-  // Enable Youtube playlist
-  $(document).ready(function() {
-    var ycp_enable_attempted = false;
-    function enable_ycp_once() {
-      if (!ycp_enable_attempted) {
-        $('#ycp').ycp({
-          apikey: 'AIzaSyCNyRhHrbLq_uLkqRQyaYM9rvbe_cXuGlo',
-          autoplay: true,
-          playlist: 50
-        });
-        ycp_enable_attempted = true;
-      }
-    }
-    $('#about').waypoint(function(direction) {
-      enable_ycp_once();
-    });
-    $('#videos').waypoint(function(direction) {
-      enable_ycp_once();
-    });
-  });
-
-
   // Decode e-mail and populate as necessary
   var email = dec('znvyM%C2%81ur%C2%81u%7Frnq%C2%80%3Bpu'),
       email_elements = document.querySelectorAll('.email');
