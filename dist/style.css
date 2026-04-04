@@ -1,142 +1,142 @@
 body {
-  background-color: #E4E4E4;
+    background-color: #e4e4e4;
 }
 div#body {
-  margin: 0 auto;
-  width: 100%;
-  background-color: #EFEFEF;
-  box-shadow: 0 0 10rem #aaa;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #efefef;
+    box-shadow: 0 0 10rem #aaa;
 }
 @media (min-width: 500px) {
-  div#body {
-    width: 80%;
-  }
+    div#body {
+        width: 80%;
+    }
 }
 div.section {
-  padding: 2rem;
+    padding: 2rem;
 }
 @media (min-width: 500px) {
-  div.section {
-    padding: 4rem;
-  }
+    div.section {
+        padding: 4rem;
+    }
 }
 div.section-title {
-  width: 100%;
-  text-align: left;
-  font-size: 3rem;
-  padding: 0;
-  padding-bottom: 2rem;
+    width: 100%;
+    text-align: left;
+    font-size: 3rem;
+    padding: 0;
+    padding-bottom: 2rem;
 }
 div.section-title#concert-title {
-  text-align: center;
+    text-align: center;
 }
 div#news {
-  background-color: #f0a032;
-  text-align: center;
-  padding: 1.5rem;
+    background-color: #f0a032;
+    text-align: center;
+    padding: 1.5rem;
 }
 div#about div#members {
-  margin-top: 3rem;
-  margin-bottom: 0;
-  text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    text-align: center;
 }
 div#about div#members div.group {
-  position: relative;
-  display: inline-block;
-  border: 0.1rem solid #888;
-  border-radius: 0.2rem;
-  padding-top: 1.4rem;
-  padding-bottom: 0;
-  margin: 0.5rem;
-  margin-bottom: 0.3rem;
-  color: #333;
+    position: relative;
+    display: inline-block;
+    border: 0.1rem solid #888;
+    border-radius: 0.2rem;
+    padding-top: 1.4rem;
+    padding-bottom: 0;
+    margin: 0.5rem;
+    margin-bottom: 0.3rem;
+    color: #333;
 }
 div#about div#members div.group span.group {
-  position: absolute;
-  top: -0.8rem;
-  left: 0.4rem;
-  font-size: 1rem;
-  padding: 0 0.2rem;
-  background-color: #EFEFEF;
-  color: #666;
+    position: absolute;
+    top: -0.8rem;
+    left: 0.4rem;
+    font-size: 1rem;
+    padding: 0 0.2rem;
+    background-color: #efefef;
+    color: #666;
 }
 div#about div#members div.group:hover {
-  box-shadow: 0 0 0.2rem #999;
-  color: black;
+    box-shadow: 0 0 0.2rem #999;
+    color: black;
 }
 div#about div#members div.member {
-  display: inline-block;
-  text-align: center;
-  font-size: 1.1rem;
-  margin: 0rem 1rem;
-  margin-bottom: 1rem;
-  cursor: default;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0rem 1rem;
+    margin-bottom: 1rem;
+    cursor: default;
 }
 div#about div#members div.member img {
-  display: block;
-  width: 9rem;
-  height: 9rem;
-  margin-bottom: 0.5rem;
-  border-radius: 10rem;
+    display: block;
+    width: 9rem;
+    height: 9rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10rem;
 }
 div#about div#members div.group-alumni {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 div#about div#members div.group-alumni img {
-  width: 7rem;
-  height: 7rem;
+    width: 7rem;
+    height: 7rem;
 }
 div#videos {
-  text-align: center;
+    text-align: center;
 }
 div#videos div#ycp div.play {
-  text-align: left;
+    text-align: left;
 }
 div#videos div#ycp div.play div.thumb {
-  height: 36px !important;
-  overflow: hidden;
+    height: 36px !important;
+    overflow: hidden;
 }
 div#videos div#ycp div.play div.thumb img {
-  width: 65px !important;
-  height: 49px !important;
-  margin-top: -7px;
+    width: 65px !important;
+    height: 49px !important;
+    margin-top: -7px;
 }
 div#videos div#ycp div.play div.title {
-  white-space: pre-wrap !important;
-  height: 36px;
-  line-height: 18px;
+    white-space: pre-wrap !important;
+    height: 36px;
+    line-height: 18px;
 }
 div#videos div#ycp div.vid-bottom {
-  height: 507px !important;
+    height: 507px !important;
 }
 div#videos div#ycp div.vid-top,
 div#videos div#ycp div.thumb span[class^="tm"],
 div#videos div#ycp span.mute,
 div#videos div#ycp .play > br {
-  display: none;
+    display: none;
 }
 div#map img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 div#footer {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 div#footer .bg {
-  width: 100%;
+    width: 100%;
 }
 div#footer div {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.7);
-  margin: 2rem;
-  padding: 1.5rem;
-  right: 1rem;
-  bottom: 1rem;
-  line-height: 2.5rem;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 2rem;
+    padding: 1.5rem;
+    right: 1rem;
+    bottom: 1rem;
+    line-height: 2.5rem;
 }
 
 img.fa-icon {
@@ -151,100 +151,100 @@ img.fa-icon {
 }
 
 div#footer div a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 div#footer div a:hover {
-  cursor: pointer;
-  text-decoration: underline;
+    cursor: pointer;
+    text-decoration: underline;
 }
 div#footer div span.copyright {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  color: #333;
-  font-size: 1.2rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 1.2rem;
 }
 div#home {
-  position: absolute;
-  top: 0;
-  width: inherit;
-  text-align: center;
-  padding: 0.5rem;
-  line-height: 1rem;
-  z-index: 3 !important;
-  background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    width: inherit;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1rem;
+    z-index: 3 !important;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 div#home img {
-  height: 100%;
-  width: 10rem;
+    height: 100%;
+    width: 10rem;
 }
 div#nav {
-  top: 12rem;
-  position: absolute;
-  width: inherit;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  z-index: 2;
+    top: 12rem;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 2;
 }
 div#nav a {
-  display: inline-block;
-  padding: 0;
-  height: 2rem;
-  line-height: 2rem;
-  padding: 0.5rem 1.5rem;
-  margin: 0;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: text-shadow 0.5s;
+    display: inline-block;
+    padding: 0;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: text-shadow 0.5s;
 }
 div#nav a:hover {
-  text-shadow: 0 0 0.5rem white;
+    text-shadow: 0 0 0.5rem white;
 }
 div#carousel {
-  height: 15rem;
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
+    height: 15rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
 }
 div#carousel img {
-  width: 100%;
-  min-height: 15rem;
+    width: 100%;
+    min-height: 15rem;
 }
 @media (min-width: 600px) {
-  div#home {
-    width: auto;
-    background-color: transparent;
-    padding: 1.5rem;
-  }
-  div#home img {
-    width: 16rem;
-  }
-  div#nav {
-    top: 0;
-    text-align: right;
-  }
-  div#nav a {
-    padding: 2rem;
-  }
-  div#carousel {
-    height: 25rem;
-  }
-  div#carousel img {
-    min-height: 25rem;
-  }
+    div#home {
+        width: auto;
+        background-color: transparent;
+        padding: 1.5rem;
+    }
+    div#home img {
+        width: 16rem;
+    }
+    div#nav {
+        top: 0;
+        text-align: right;
+    }
+    div#nav a {
+        padding: 2rem;
+    }
+    div#carousel {
+        height: 25rem;
+    }
+    div#carousel img {
+        min-height: 25rem;
+    }
 }
 @media (min-width: 800px) {
-  div#body {
-    width: 800px;
-  }
-  div#carousel {
-    height: 40rem;
-  }
-  div#carousel img {
-    min-height: 40rem;
-  }
+    div#body {
+        width: 800px;
+    }
+    div#carousel {
+        height: 40rem;
+    }
+    div#carousel img {
+        min-height: 40rem;
+    }
 }
